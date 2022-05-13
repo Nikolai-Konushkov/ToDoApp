@@ -1,0 +1,77 @@
+body {
+  min-height: 100vh;
+  background-color: #01274b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputContainer {
+  width: 450px;
+  background-color: #0f3d6a;
+  padding: 30px 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: #01274baa;
+  border: none;
+  height: 40px;
+  width: 350px;
+  color: #fff;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  background-color: #01274bcc;
+}
+
+.applyButton {
+  background-color: #0a5296;
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: #eeeeeeee;
+}
+
+.deleteBtn {
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dealItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
